@@ -1,3 +1,4 @@
- // if(idx >= arr.size()) {
-    //     return INT_MAX;
-    // }
+'n' = 3, 'w' = 10, 
+// 'profit' = [5, 11, 13]
+// 'weight' = [2, 4, 6]*/
+
