@@ -1,0 +1,26 @@
+
+
+// Segment Trees write a code for segment trees to solve the following problems 
+// 1. Build
+// 2. Update
+// 3. Query
+// 4. Range Query
+// 5. Range Update
+// 6. Lazy Propagation
+// 7. Range Minimum Query
+// 8. Range Maximum Query
+// 9. Range Sum Query
+// 10. Range Product Query
+// 11. Range GCD Query
+// 12. Range LCM Query
+// 13. Range XOR Query
+// 14. Range OR Query
+// 15. Range AND Query
+// 16. Range Add Query
+// 17. Range Set Query
+// 18. Range Multiply Query
+// 19. Range Divide Query
+// 20. Range Power Query
+// 21. Range Square Query
+// 22. Range Cube Query
+// 23. Range Square Root Query

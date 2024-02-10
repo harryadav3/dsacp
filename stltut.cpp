@@ -177,9 +177,11 @@ int main()
     return 0;
 }
 */
+
 /*list in stl
 // the implementation of list occurs due to doubl-linked lists. lists stl is made using the double-linked lists. Double-linked lists have two pointers one at the front and one at the back.
 //  Direct accessing of elements using index or at() function is not possible in lists.
+
 #include <iostream>
 #include <list>
 using namespace std;
