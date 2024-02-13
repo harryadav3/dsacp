@@ -34,7 +34,7 @@ void buildTree(int *arr, node *tree, int start, int end, int index) {
 
 node query(node *tree, int start, int end, int index, int left, int right) {
     node result;
-    result.sum = result.maxsum = result.prefixsum = result.suffixsum = INT_MIN;
+result.sum = result.maxsum = result.prefixsum = result.suffixsum = INT_MIN;
 
     if(start > right || end < left) {
         return result;
