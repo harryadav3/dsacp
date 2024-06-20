@@ -41,6 +41,40 @@ void merge(int *arr, int start, int end)
     delete[] arr1;
     delete[] arr2;
 }
+
+void merge_sriver(int arr[], int low , int mid, int high) {
+    // temp arr
+    int temp[high - low + 1];
+    int left = low , right = mid + 1;
+
+
+    // merging the two arrays
+
+    while( left <= mid && right <= high) {
+        if( arr[left] <= arr[right]) {
+            temp[left++] = arr[left++];
+        } else {
+            temp[left++] = arr[right++];
+        }
+    }
+
+    // copying the remaining elements of the left array
+
+    while (left <= mid) {
+       temp[left++] = arr[left++];
+    }
+
+    //  if elements on the right half are still left //
+    while (right <= high) {
+        temp[left++] = arr[right++];
+    }
+
+    // transfering all elements from temporary to arr //
+    for (int i = low; i <= high; i++) {
+        arr[i] = temp[i];
+    }
+}   
+}
 void mergesort(int *arr, int start, int end)
 {
     // base case
