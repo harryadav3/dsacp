@@ -42,7 +42,13 @@ struct Stack {
         head = head->nxt;
         delete temp;
     }
+
+    void empty() {
+        return head == NULL;
+    }
 }
+
+
 
 int main() {
 
