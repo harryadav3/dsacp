@@ -1,5 +1,19 @@
+// {
+//   "files.associations": {
+//     "chrono": "cpp"
+//   }
+// }
 {
+  "workbench.editor.openSideBySideDirection": "right",
+  "code-runner.runInTerminal": true,
+  "code-runner.saveFileBeforeRun": true,
+  "code-runner.preserveFocus": false,
+  "code-runner.clearPreviousOutput": true,
+  "code-runner.executorMap": {
+    "cpp": "cd $dir && g++ $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt < $workspaceRoot/input.txt > $workspaceRoot/output.txt"
+  },
   "files.associations": {
-    "chrono": "cpp"
+    "input.txt": "plaintext",
+    "output.txt": "plaintext"
   }
 }

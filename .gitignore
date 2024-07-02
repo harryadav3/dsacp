@@ -7,5 +7,46 @@ a.out
 
 *.out
 
-**/*.o
-**/*.out
+
+# Compiled object files
+*.o
+*.obj
+
+# Compiled binary files
+*.exe
+*.out
+*.app
+*.i*86
+*.x86_64
+*.so
+
+# C++ cache files
+*.d
+
+# Debug files
+*.dSYM/
+*.stackdump
+
+# Generated files
+*.s
+*.ko
+*.mod
+*.mod.c
+*.cmd
+
+# Compiled Dynamic libraries
+*.dll
+*.dylib
+*.pdb
+
+# Static libraries
+*.lib
+*.a
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# CMake
+CMakeFiles/
+CMakeCache.txt

@@ -48,7 +48,12 @@ struct Node {
     int val;
     Node* l;
     Node* r;
-    Node(int x) : val(x), l(nullptr), r(nullptr) {}
+    // Node(int x) : val(x), l(nullptr), r(nullptr) {}
+    Node(int x) {
+        val = x;
+        l = nullptr;
+        r = nullptr;
+    }
 };
 
 
